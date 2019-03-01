@@ -143,7 +143,7 @@ h1, h2, h3 {
  padding-bottom: 30px;
 }
 
-h1 { 
+h1 {
  font-size: 52px;
 }
 
@@ -160,6 +160,7 @@ h3 {
   width: 100%;
   max-width: 1400px;
   box-sizing: border-box;
+  margin: auto;
 }
 
 .main-container {
@@ -261,11 +262,12 @@ header {
 
 footer {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   font-size: 10px;
   line-height: 12px;
   color:#6e6e6e;
+  width: 70%;
+  margin: auto;
 }
 
 .contact-apple, .footer-links {
@@ -273,13 +275,14 @@ footer {
 }
 
 .copyright {
-  flex-basis:100%;
+  flex-basis:50%;
 }
 
-footer p, .footer-links {  
+footer p, .footer-links {
   padding: 10px 0;
 }
 
-.footer-links li {
-  display: inline-block;
+.footer-links {
+  display: flex;
+  justify-content: space-around;
 }
