@@ -133,18 +133,43 @@ table {
 */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+ color:#fff;
+ text-align: center;
+ padding-bottom: 30px;
+}
+
+h1 { 
+ font-size: 52px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
 }
 
 .main-container {
   height: 588px;
-  width: 75%;
   margin: auto;
   padding-top: 20px;
   background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  background-size: 100% auto;
+  background-size: 120% auto;
 }
 
 .main-nav {
@@ -180,6 +205,11 @@ body {
 
 .main-nav ul li:last-child {
   border: none;
+  position:relative;
+}
+
+.main-nav ul li:hover {
+  background: rgba(0, 0, 0, .4);
 }
 
 .searchbox {
@@ -194,30 +224,62 @@ body {
 }
 
 .icon {
-  position: relative;
-  left: 30px;
+  position: absolute;
+  left: 15px;
+}
+
+header {
+  width: 65%;
+  margin: 120px auto;
 }
 
 .page-body {
   display: flex;
-  width: 75%;
   margin: auto;
 }
 
 .product-img {
   flex-basis: 25%;
-  height: 250px;
-  background: red;
+  height: 200px;
 }
 
-#product-1{
+#product-1 {
+  background: url(./assets/promo1.jpg) center / cover no-repeat;
 }
 
-#product-2{
+#product-2 {
+  background: url(./assets/promo2.jpg) center / cover  no-repeat;
 }
 
-#product-3{
+#product-3 {
+  background: url(./assets/promo3.jpg) center / cover  no-repeat;
 }
 
 #product-4{
+  background: url(./assets/promo4.jpg) center / cover  no-repeat;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 10px;
+  line-height: 12px;
+  color:#6e6e6e;
+}
+
+.contact-apple, .footer-links {
+  flex-basis: 50%;
+}
+
+.copyright {
+  flex-basis:100%;
+}
+
+footer p, .footer-links {  
+  padding: 10px 0;
+}
+
+.footer-links li {
+  display: inline-block;
 }
