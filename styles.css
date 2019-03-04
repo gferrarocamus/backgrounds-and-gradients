@@ -195,12 +195,14 @@ h3 {
 }
 
 .main-nav ul li {
-  flex-basis: 10%;
+  flex-basis: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 36px;
   height: 100%;
+  width:100%;
+  box-sizing: border-box;
   border-right: 1px solid #666;
 }
 
@@ -244,19 +246,19 @@ header {
   height: 200px;
 }
 
-#product-1 {
-  background: url(./assets/promo1.jpg) center / cover no-repeat;
+.page-body .product-img:nth-child(1){
+background: url(./assets/promo1.jpg) center / cover no-repeat;
 }
 
-#product-2 {
+.page-body .product-img:nth-child(2){
   background: url(./assets/promo2.jpg) center / cover  no-repeat;
 }
 
-#product-3 {
+.page-body .product-img:nth-child(3){
   background: url(./assets/promo3.jpg) center / cover  no-repeat;
 }
 
-#product-4{
+.page-body .product-img:nth-child(4){
   background: url(./assets/promo4.jpg) center / cover  no-repeat;
 }
 
@@ -270,12 +272,8 @@ footer {
   margin: auto;
 }
 
-.contact-apple, .footer-links {
+.contact-apple, .footer-links, .copyright{
   flex-basis: 50%;
-}
-
-.copyright {
-  flex-basis:50%;
 }
 
 footer p, .footer-links {
@@ -285,4 +283,9 @@ footer p, .footer-links {
 .footer-links {
   display: flex;
   justify-content: space-around;
+}
+
+.footer-links li {
+  height: 100%;
+  text-align: center;
 }
