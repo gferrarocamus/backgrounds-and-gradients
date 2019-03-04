@@ -133,18 +133,22 @@ table {
 */
 
 body {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
- color:#fff;
- text-align: center;
- padding-bottom: 30px;
+h1,
+h2,
+h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 h1 {
- font-size: 52px;
+  font-size: 52px;
 }
 
 h2 {
@@ -201,18 +205,18 @@ h3 {
   align-items: center;
   line-height: 36px;
   height: 100%;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
   border-right: 1px solid #666;
 }
 
 .main-nav ul li:last-child {
   border: none;
-  position:relative;
+  position: relative;
 }
 
 .main-nav ul li:hover {
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .searchbox {
@@ -246,20 +250,20 @@ header {
   height: 200px;
 }
 
-.page-body .product-img:nth-child(1){
-background: url(./assets/promo1.jpg) center / cover no-repeat;
+.page-body .product-img:nth-child(1) {
+  background: url(./assets/promo1.jpg) center / cover no-repeat;
 }
 
-.page-body .product-img:nth-child(2){
-  background: url(./assets/promo2.jpg) center / cover  no-repeat;
+.page-body .product-img:nth-child(2) {
+  background: url(./assets/promo2.jpg) center / cover no-repeat;
 }
 
-.page-body .product-img:nth-child(3){
-  background: url(./assets/promo3.jpg) center / cover  no-repeat;
+.page-body .product-img:nth-child(3) {
+  background: url(./assets/promo3.jpg) center / cover no-repeat;
 }
 
-.page-body .product-img:nth-child(4){
-  background: url(./assets/promo4.jpg) center / cover  no-repeat;
+.page-body .product-img:nth-child(4) {
+  background: url(./assets/promo4.jpg) center / cover no-repeat;
 }
 
 footer {
@@ -267,16 +271,19 @@ footer {
   flex-wrap: wrap;
   font-size: 10px;
   line-height: 12px;
-  color:#6e6e6e;
+  color: #6e6e6e;
   width: 70%;
   margin: auto;
 }
 
-.contact-apple, .footer-links, .copyright{
+.contact-apple,
+.footer-links,
+.copyright {
   flex-basis: 50%;
 }
 
-footer p, .footer-links {
+footer p,
+.footer-links {
   padding: 10px 0;
 }
 
